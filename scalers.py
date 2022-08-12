@@ -2,7 +2,7 @@ import pandas as pd
 
 def scaler_nD(txt, sep, esc, newtxt):
     """Takes a file into a DataFrame and multiplies the columns by a scalar, 
-    then prints head of DataFrame
+    then prints head of DataFrame and saves it to a new file
 
     Args:
         txt (.csv, .txt): File to import as DataFrame
