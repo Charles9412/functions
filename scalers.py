@@ -32,5 +32,3 @@ def scaler_nD(txt, sep, esc, newtxt):
 
     return data
 
-scaler_nD("vectortest2D.txt", "\t", 2, "newdata.txt")
-
